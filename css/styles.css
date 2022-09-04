@@ -9,9 +9,151 @@ p {
   margin: 0;
 }
 
+
 .description {
   color: brown;
+
+
+
+
+.maks-slider {
+  width: 1200px;
+  background-color: rgba(34, 139, 34, 0.5);
+
+.slider-wrap {
+  width: 1000px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.maks-slider img {
+  width: 743px;
+  height: 740px;
+}
+
+.maks-slider-item-subtitle {
+  font-size: 30px;
+  text-align: center;
+}
+
+.slick-prev:before {
+  content: "◀";
+  font-family: "slick";
+  font-size: 40px;
+  left: 50px;
+  line-height: 1;
+  opacity: 1;
+  color: black;
+}
+
+.slick-prev {
+  left: -50px;
+}
+
+.slick-next:before {
+  content: "▶";
+  font-family: "slick";
+  font-size: 40px;
+  left: 50px;
+  line-height: 1;
+  opacity: 1;
+  color: black;
+}
+
+.slick-next {
+  right: -50px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: rgb(206, 27, 27);
+    }
+
+
+a{text-decoration: none;} 
+
+body {
+  font-family: var(--primary-font);
+  background-color: yellowgreen;
+  color: black;
+  font-size: 35px;
+  letter-spacing: 0.03em;
+ 
+
+/* Alex CSS */
+.text-slider{
+  
+}
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+
+.tolik{
+  width: 600px;
+  padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item-tolik{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-dots {
+  position: absolute;
+  bottom: -45px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;}
+  .my-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
   }
+  .my-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+  }
+  .my-dots li button:hover,
+  .my-dots li button:focus {
+    outline: none;
+  }
+  
+  .my-dots li button:hover:before,
+  .my-dots li button:focus:before {
+    opacity: 1;
+
+  }
+
+
+
 
 
 
