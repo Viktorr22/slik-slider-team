@@ -10,6 +10,10 @@ p {
 }
 
 
+.Yaroslav-slider {
+  width: 1500px;
+
+
 .description {
   color: brown;
 
@@ -23,11 +27,13 @@ p {
 .slider-wrap {
   width: 1000px;
 
+
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
+
 
 
 .maks-slider img {
@@ -151,6 +157,7 @@ body {
     opacity: 1;
 
   }
+
 
 
 
