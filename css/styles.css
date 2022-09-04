@@ -9,6 +9,22 @@ p {
   margin: 0;
 }
 
+.slider-wrap {
+  width: 1000px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: rgb(206, 27, 27);
+    }
+
+
 a{text-decoration: none;} 
 
 body {
@@ -143,5 +159,6 @@ body {
   line-height: 1.5;
   font-weight: 700;
 }
+
 
 
