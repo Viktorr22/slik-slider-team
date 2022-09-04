@@ -9,13 +9,59 @@ p {
   margin: 0;
 }
 
+
+.maks-slider {
+  width: 1200px;
+  background-color: rgba(34, 139, 34, 0.5);
+
 .slider-wrap {
   width: 1000px;
+
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
+
+
+.maks-slider img {
+  width: 743px;
+  height: 740px;
+}
+
+.maks-slider-item-subtitle {
+  font-size: 30px;
+  text-align: center;
+}
+
+.slick-prev:before {
+  content: "◀";
+  font-family: "slick";
+  font-size: 40px;
+  left: 50px;
+  line-height: 1;
+  opacity: 1;
+  color: black;
+}
+
+.slick-prev {
+  left: -50px;
+}
+
+.slick-next:before {
+  content: "▶";
+  font-family: "slick";
+  font-size: 40px;
+  left: 50px;
+  line-height: 1;
+  opacity: 1;
+  color: black;
+}
+
+.slick-next {
+  right: -50px;
+}
+
 .slick-prev:before, .slick-next:before {
     font-family: 'slick';
     font-size: 20px;
