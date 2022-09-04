@@ -9,6 +9,28 @@ p {
   margin: 0;
 }
 
+a{text-decoration: none;} 
+
+body {
+  font-family: var(--primary-font);
+  background-color: yellowgreen;
+  color: black;
+  font-size: 35px;
+  letter-spacing: 0.03em;
+ 
+
+/* Alex CSS */
+.text-slider{
+  
+}
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+
 .tolik{
   width: 600px;
   padding-left: 15px;
@@ -121,4 +143,5 @@ p {
   line-height: 1.5;
   font-weight: 700;
 }
+
 
